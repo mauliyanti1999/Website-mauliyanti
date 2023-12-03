@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+.nav{
+    color: whitesmoke;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav a{
+    color: whitesmoke;
+}
+
+.nav li{
+    padding: 5px;
+}
+
+.nav li:hover{
+    background-color: #2089f3;
+}
+
+
+.data-list{
+
+    margin-left: 40%;
+}
+
+.data-list li{
+display: inline-block;
+margin-left: 20px;
+}
+
+.fa-chevron-down{
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.Wisata:hover .fa-chevron-down{
+    transform: rotate(-90deg);
+}
+
+.Logo{
+    margin-left: 30px;
+}
+
+.list{
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.list li{
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.data-list a{
+    text-decoration: none;
+}
+
+.Wisata:hover .list{
+ display: block;  
+
+}
+
+
+/* header==================================================== */
+
+.header{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.des-header{
+
+    width: 40%;
+    margin: auto;
+}
+.des-header h1{
+font-weight: 700;
+font-size: 7rem;
+width: 50%;
+color: #222;
+}
+
+.gambar{
+    width: 46%;
+    height: 100vh;
+}
+
+.gambar img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.sosmed{
+    position: fixed;
+    margin-top: 40vh;
+    margin-left: 30px;
+}
+.sosmed li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.sosmed .fa-tiktok:hover{
+    color: #2089f3;
+}
+.sosmed .fa-instagram:hover{
+    color: #2089f3;
+}
+
+.sosmed .fa-brands{
+    font-size: 30px;
+    color: #222;
+}
+
+/* container============ */
+
+
+.container{
+
+width: 70%;
+margin: auto;
+}
+
+
+/* content=============================== */
+
+.content h2{
+    color: #153337;
+    margin-bottom: 10px;
+}
+
+.content p{
+    color: #666;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+
+/*footer =================================*/
+
+.bg-footer{
+    
+    height: 20vh;
+    background-color: #222;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15vh;
+}
+
+
